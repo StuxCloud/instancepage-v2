@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://instancepage.stux.cloud/sitemap.xml
+Sitemap: https://instancepage-v2.stux.cloud/sitemap.xml
