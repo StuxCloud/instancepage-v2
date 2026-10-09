@@ -89,7 +89,7 @@
     <p>The Exo 2, Barlow and Inter fonts are served from this same domain, not a third-party CDN. The only resource loaded from outside this domain is the logo and icon images, from <code>global.media.stux.cloud</code> &mdash; infrastructure operated by the same Stux.Cloud/Stux Group Ltd chain that runs this page, not an unrelated third party.</p>
 
     <h2>localStorage</h2>
-    <p>The only thing this page stores in your browser is a single value, <code>stuxedo-theme</code>, remembering whether you last chose light or dark mode. It never leaves your device, isn't sent to any server, and can be cleared any time via your browser's site data settings.</p>
+    <p>The only thing this page stores in your browser is a single value, <code>stuxcloud-theme</code>, remembering whether you last chose light or dark mode. It never leaves your device, isn't sent to any server, and can be cleared any time via your browser's site data settings.</p>
 
     <h2>The region, address and contact details shown on this page</h2>
     <p>This page reads <code>document.referrer</code> &mdash; the address of whichever page embedded it in an iframe &mdash; purely inside your own browser, to fill in the "Server Region", "Server Address" and contact-email fields you see above. That value never leaves your device or gets sent to us; it's just used locally to render the text.</p>
@@ -117,7 +117,7 @@
         var root = document.documentElement;
         var btn = document.getElementById('theme-toggle');
         var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        var stored = localStorage.getItem('stuxedo-theme');
+        var stored = localStorage.getItem('stuxcloud-theme');
         var isDark = stored ? stored === 'dark' : prefersDark;
 
         function apply(dark) {
@@ -131,7 +131,7 @@
 
         btn.addEventListener('click', function () {
             isDark = !isDark;
-            localStorage.setItem('stuxedo-theme', isDark ? 'dark' : 'light');
+            localStorage.setItem('stuxcloud-theme', isDark ? 'dark' : 'light');
             apply(isDark);
         });
     })();
