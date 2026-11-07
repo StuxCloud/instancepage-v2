@@ -42,7 +42,7 @@ Work happens on `test` (or a branch off it), never on `main`. Changes reach `mai
 
 ## License
 
-Copyright (c) 2026 Stux.Group. This project is open source and available for use and modification.
+Copyright (c) 2026 Stux.Group. All rights reserved. This repository is not licensed for reuse or redistribution, see [LICENSE](LICENSE).
 
 ---
 
