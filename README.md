@@ -22,6 +22,7 @@ Live at [instancepage-v2.stux.cloud](https://instancepage-v2.stux.cloud/). Its l
 
    ```bash
    ./dev-server.sh        # or dev-server.bat on Windows
+   ./dev-server.sh --lan  # also open it from a phone or another device on your network
    ```
 
    Then open the printed URL. You can also open `index.html` directly in your browser.
